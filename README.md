@@ -23,7 +23,7 @@ If the user selects this last option, the OPERACIONES E INSTRUMENTOS screen appe
 
 From here, the user can freely select which instrument to add to the queue. It is responsibility of the user to add to the queue only the instruments it's going to use, because if the user selects an instrument that's not connected, the program will throw an error when execution begins and tries to connect. In most of the instruments, an additional parameters needs to be input via a popup message.
 
-Every time an operation is succssfully created, a text message will be added in the left text box, to aid the user in knowing what the final sequence looks like.
+Every time an operation is successfully created, a text message will be added in the left text box, to aid the user in knowing what the final sequence looks like.
 
 Once the user finishes adding instruments and operations, it can save the sequence to memory with the GRABAR SECUENCIA button, reset the sequence with the LIMPIAR SECUENCIA button, or execute the sequence with the EJECUTAR SECUENCIA button.
 
@@ -31,7 +31,7 @@ If the user decides to execute the sequence, the program asks the user the numbe
 
 The Rep. Actual indicator shows the current repetition it is on, and the Operación indicator above the text box displays the current number of the operation in the sequence.
 
-When the execution(s) ends, a log file is updated with the new operations, and a text file with the measurements is created. The user can delete the sequence, execute it again, or exit the software.
+When the execution(s) completes, a log file is updated with the new operations, and a text file with the measurements is created. The user can delete the sequence, execute it again, or exit the software.
 
 
 
@@ -41,6 +41,6 @@ An additional instrument not yet included in this software is the control and us
 
 Here, the user can change the integration time and the number of averages. Then it can press the CONTINUOUS measurement button, or the SINGLE (1) measurement button. In continuous mode, every time the instrument finishes scanning its spectrum, it outputs the data to the graph, in SINGLE mode, it does this only once.
 
-The OSCURO button must be pressed only when the spectrometer probe is covered, it takes a single measurement and saves it, whenever a new measurement occurs, it's going to substract this dark signal to the measured signal.
+The OSCURO button must be pressed only when the spectrometer probe is covered, it takes a single measurement and saves it; whenever a new measurement occurs, it's going to substract this dark signal to the measured signal.
 
 In CONTINUOUS mode, every measurement is saved in the program memory, and when the user presses the GUARDAR DATOS button, it gets copied to computer memory, but in single mode, only the latest measurement can be saved to memory.
